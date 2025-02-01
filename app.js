@@ -5,7 +5,7 @@ const cors = require("cors");
 const WebSocket = require("ws");
 
 const { FirstSocketConnection } = require("./socketConnection/socketConnection");
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = ["http://localhost:3000", "https://tic-tac-frontend-cuo5.vercel.app"];
 
 const app = express();
 const server = http.createServer(app);
